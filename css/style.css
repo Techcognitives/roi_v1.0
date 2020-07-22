@@ -1,0 +1,741 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px){
+  .roi-container{
+    width: 1280px;
+    padding: 0 20px;
+  }
+  
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1280px) {
+  
+  .roi-container{
+    width: 740px;
+    padding: 0 10px;
+  }
+  
+  
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .roi-container{
+    width: 300px;
+    padding: 0 5px;
+  }
+  
+}
+.roi-container{
+  margin: 20px auto;
+}
+
+
+
+
+*, ::after, ::before{
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit; 
+}
+body {
+  font-family: "Lato", sans-serif;
+  font-size: 17px;
+  background-color: white;
+  margin: 0 ;
+  padding: 0;
+}
+h1, h2, h3, h4, h5, h6{
+  margin: 0;
+  padding: 0;
+}
+#pdf{
+  background-color: white;
+}
+.roi-calculator{
+}
+.roi-center-name{
+  color: #FF7600;
+}
+.roi-calculator .intro {
+  display: inline;
+  cursor: pointer;
+}
+.roi-calculator .intro.tab2 {
+  display: inline;
+  margin-left: 32px;
+}
+.roi-calculator .intro span {
+  color: white;
+    border-radius: 10px 10px 0px 0px;
+    padding: 16px 3px;
+    display: inline-block;
+    text-align: center;
+    width: 349px;
+    font-size: 24px;
+    font-weight: 400;
+}
+.roi-clc-contaner{
+  
+}
+.roi-body{
+  border: 3px solid #1080B1;
+  border-radius: 0px 10px 10px 10px;
+  position: relative;
+}
+.roi-calculator .intro_heading{
+  text-align: center;
+}
+.roi-calculator .intro_heading span {
+  background: #288FDB;
+  color: white;
+  padding: 10px 15px;
+  text-align: center;
+  display: block;
+  border-radius: 0 8px 0 0;
+  font-weight: bold;
+  font-size: 24px;
+}
+.roi-calculator .heading{
+  
+}
+.roi-calculator .heading p {
+  color: #ffffff;
+  padding: 5px;
+  font-size: 22px;
+  background: #288FDB;
+  font-weight: 700;
+}
+.roi-calculator .left_align{
+  width: 75%;
+  float: left;
+}
+.roi-calculator .right_align{
+  width: 25%;
+  float: left;
+}
+
+.roi-calculator .left_align.left_align_tab2{
+  width: 47%;
+  float: left;
+}
+.roi-calculator .right_align.right_align_tab2{
+  width: 33%;
+  float: left;
+}
+.roi-calculator .right_align_end_tab2{
+  width: 20%;
+  float: left;
+}
+
+.roi-calculator .output_container .left_align{
+  width: 64%;
+  float: left;
+}
+.roi-calculator .output_container .right_align{
+  width: 18%;
+  float: left;
+}
+.roi-calculator .output_container .right_align_business_model{
+  width: 40%;
+  float: left;
+}
+.roi-calculator .right_align_end{
+  width: 18%;
+  float: right;
+  text-align: center;
+}
+
+.roi-calculator .new-patient-container .heading_title_left, .roi-calculator .check-clean-apointment-container .heading_title_left{
+  margin-right: 20px;
+}
+.new-patient-body, .check-clean-apointment-body{
+  border: 1px solid #D4D4D4;
+    padding-bottom: 7px;
+    border-radius: 0px 0px 3px 3px;
+}
+.roi-calculator .heading_title_right{
+  border-left: 2px solid #ffffff;
+  text-align: center;
+}
+.clear{
+  clear: both;
+}
+p {
+  margin: 0px;
+  padding: 0px;
+}
+.roi-calculator .output_container .title{
+  padding: 2px 4px;
+}
+ .roi-calculator #conversion_asp_model .output_container .title{
+  padding: 8px 4px;
+}
+.roi-calculator .input_container .title .left_align{
+  /* border-bottom: 1px dashed #31c4f2; */
+}
+.roi-total-revenue-container{
+  background: #1080B1;
+  border-radius: 0 0 3px 3px;
+  padding: 6px 1px;
+}
+.title-top{
+  margin-top: 4px;
+}
+.roi-calculator .input_container p.title_right{
+  font-size: 20px;
+
+}
+.roi-calculator .title_right{
+  text-align: right;
+
+}
+.roi-calculator .title_right input{
+  border: transparent;
+    text-align: right;
+    font-weight: bolder;
+    font-size: 20px;
+
+  
+}
+
+.roi-new-patient-consults .title, .check-clean-apointment .title{
+  padding: 6px 4px;
+}
+
+#conversion_asp_model .roi-new-patient-consults .title, #conversion_asp_model .check-clean-apointment .title{
+  padding: 5px 4px;
+}
+.roi-new-patient-consults, .check-clean-apointment{
+  margin-top: 10px;
+}
+.new-patient-container{
+
+} 
+.check-clean-apointment-container{
+  margin-top: 14px;
+}
+.weeksForYear{
+  width: 100%;
+  border: transparent;
+  background-color: transparent;
+}
+.weeksForYear_span{
+  -webkit-box-shadow: -2px 6px 10px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: -2px 6px 10px 0px rgba(0,0,0,0.75);
+box-shadow: -2px 6px 10px 0px rgba(0,0,0,0.75);
+border: transparent;
+display: inline-block;
+    background: white;
+    border-radius: 3px;
+    width: 25px;
+    padding: 4px;
+}
+.weeksForYear_span input.weeksForYear{
+  text-align: center;
+  font-size: 16px;
+  font-weight: normal;
+  margin-top: 3px;
+}
+.new-patient-container .input_container, .check-clean-apointment-container .input_container  {
+  margin: 0 12px;
+  border-radius: 2px;
+}
+.total-revenue-roi-container .output_container{
+  margin: 0 12px;
+}
+.total-revenue-roi-container{
+  margin-top: 10px;
+} 
+.roi-body-bottom-right{
+  
+}
+.roi-calculator .title p {
+  color: black;
+  padding: 2px;
+  font-size: 20px;
+  font-weight: 600;
+}
+.roi-calculator .roi-total-revenue-container .title p{
+  color: white  ;
+
+}
+.roi-calculator .title p .title_right_span{
+  border: 1px solid #D4D4D4;
+  display: block;
+  border-radius: 2px;
+  margin-left: 4px;
+
+  padding: 2px 15%;
+
+  background-color: white;
+  -webkit-box-shadow: -2px 4px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: -2px 4px 5px 0px rgba(0,0,0,0.75);
+box-shadow: -1px 4px 5px 0px rgba(0,0,0,0.75);
+font-weight: bolder;
+}
+.plus{
+  text-align: center;
+  color: white;
+  font-weight: 900;
+  font-size: 26px;
+  margin: 0;
+  padding: 0;
+  line-height: 20px;
+
+}
+.equal{
+  text-align: center;
+  color: white;
+  font-weight: 900;
+  font-size: 26px;
+  margin: 0;
+  padding: 0;
+  line-height: 20px;
+
+}
+.roi-calculator .title p span.border_total, .business_model_h  span.border_total{
+  /* display: block;
+  background:#E3F2FD; */
+}
+.roi-calculator .heading.roi{
+  border-bottom: 1px dashed #31c4f2;
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+*:focus {
+  outline: none;
+}
+.percentage{
+  width: 65%;
+}
+.dollor{
+  width: 25%;
+    text-align: center !important;
+}
+.roi-calculator .heading-margin .left_align p, .roi-calculator .heading-margin .right_align p {
+  margin-top: 30px;
+    background: #1673b8;
+}
+.roi-calculator .heading p.empty_value{
+color: transparent  ;
+}
+.roi_button{
+  background: #31c4f2;
+  color: white;
+  margin: 18px 0;
+  align-content: end;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  outline: none;
+  float: right;
+}
+.roi_button:focus {
+  outline: none;
+  border: none;
+}
+.output_container{
+}
+p.heading_title_right.business_model_h{
+  text-align: center !important;
+    color: black;
+    font-size: 20px;
+}
+
+.roi p.heading_title_right.business_model_h{
+    font-size: 21px;
+}
+.roi p.heading_title_left{
+  color: black;
+}
+.roi_hint_c{
+  
+}
+.roi_hint{
+  color: black;
+  font-size: 16px;
+  vertical-align: middle;
+  padding-left: 5px;
+  display: block;
+  text-align: left;
+}
+.roi-body-bottom{
+  margin: 20px 0px 6px 0;
+}
+.collapse_btn{
+  margin: 19px 10px;
+  cursor: pointer;
+  display: none;
+  height: 25px;
+}
+
+.roi-calculator .output_container .right_align p{
+  text-align: right;
+  /* border: 1px solid #D4D4D4; */
+  background: white;
+  color: black;
+  border-radius: 3px;
+  -webkit-box-shadow: -2px 4px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: -2px 4px 5px 0px rgba(0,0,0,0.75);
+box-shadow: -1px 4px 5px 0px rgba(0,0,0,0.75);
+font-weight: 800;
+padding-right: 22%;
+font-size: 14px;
+}
+.input_num_desc{
+  width: 90%;
+}
+.roi_bold {
+  font-weight: bold;
+}
+.roi-calculator p.heading_title_right.business_model_h.roi-total-per{
+  text-align: end !important;
+}
+.gray-color{
+  color: #D4D4D4;
+}
+.black-color{
+  color: #000000;
+}
+.button_cont{
+  display: inline;
+  float: right;
+}
+.roi-calculator .input_container{
+      
+}
+
+.roi-calculator .output_container_result{
+
+}
+.logo{
+  position: absolute;
+  /* display: block; */
+  bottom: 10px;
+  right: 20px;
+}
+.summary-content{
+  position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+     bottom: 0;
+}
+
+.anual_profit_container{
+  float: left;
+  width: 49%;
+  height: 180px;
+  background: #1b5c8d;
+  border-radius: 3px;
+  margin-right: 1%;
+}
+.roi_container{
+  float: left;
+  width: 49%;
+  height: 180px;
+  background: #1b5c8d;
+  border-radius: 3px;
+  margin-left: 1%;
+}
+.anual_profit_container .title{
+  font-size: 22px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 26px;
+  padding-top: 14px;
+}
+.anual_profit_container .sub_title{
+  text-align: center;
+  padding-top: 3px;
+  font-size: 50px;
+  font-weight: bold;
+  color: white;
+}
+.roi_container .title{
+  font-size: 22px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 40px;
+}
+
+.roi_container .sub_title{
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+  color: white;
+}
+.roi-body-bottom-right-con{
+  margin: 0 5px;
+}
+.roi-body-container{
+  padding: 7px 6px;
+}
+.roi-note{
+  text-align: start;
+  font-size: 14px;
+  font-style: italic;
+  color: #FF0000;
+  padding: 7px 20px;
+  position: relative;
+}
+.roi-note strong{
+  float: left;
+  margin-right: 5px;
+}
+.roi-note p{
+  float: left;
+    width: 66%;
+    padding-right: 12px;
+}
+.roid-left-container{
+  float: left;
+  width: 67%;
+}
+.roi-left-in-container{
+  border-right: 1px solid #D4D4D4;
+  border-radius: 0px 10px 0px 0px;
+}
+.roid-right-container{
+  float: left;
+  width: 33%;
+}
+
+.roi-summary{
+  background: #D4D4D4;
+    margin-left: 25px;
+    border-radius: 10px;
+    padding-bottom: 10px;
+
+}
+.asp-img{
+  width: 100%;
+  height: 160px;
+}
+.total-result-img{
+  width: 100%;
+}
+.roi-summary-title{
+  color: #ffffff;
+    padding: 2px 5px;
+    font-size: 20px;
+    background: #288FDB;
+    border-radius: 10px 10px 0 0;
+    font-weight: bold;
+    line-height: normal;
+    text-align: center;
+}
+.cash-pay-model-summary, .asp-model-summary, .total-financial-summary{
+  background:#61ACCB;
+  margin: 0px 20px 0px 20px;
+  border-radius: 4px;
+}
+.cash-pay-model-summary{
+  margin-top: 18px;
+}
+.asp-model-summary, .total-financial-summary{
+  position: relative;
+}
+.summary-overview-asp{
+  position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: #2496C4;
+    opacity: 0.9;
+    border-radius: 5px;
+}
+.summary-overview-total-result{
+  position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: #1882AC;
+    opacity: 0.9;
+    border-radius: 5px;
+}
+.summary-title{
+  text-align: center;
+    color: #FF7600;
+    border-bottom: 1px solid white;
+    margin: 5px 12% 0px 12%;
+    text-shadow: 0 0 3px #000000;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 3px 0;
+}
+.total_financial_2 .summary-title{
+  margin: 5px 3% 0px 3%;
+}
+.summary-result1, .summary-result2{
+  /* background-image: url(../images/ellipse.svg);
+  width: 130px;
+  height: 130px;
+  background-repeat: round; */
+  float: left;
+  position: relative;
+  width: 50%;
+    float: left;
+    align-content: center;
+    text-align: center;
+}
+.total-summary-result1, .total-summary-result2{
+       /* height: 130px; */
+       background-repeat: round;
+       float: left;
+       FONT-WEIGHT: 500;
+       width: 48%;
+       background: #15C6CA;
+       margin: 1%;
+       border-radius: 3px;
+       margin-top: 6px;
+       padding: 10px 0px;
+       /* min-height: 73px; */
+}
+.total-summary-result2  p.title{
+}
+.summary-result1{
+}
+.summary-result{
+  margin: 0 5% 0px 6%;
+}
+.summary-result1 .title,.summary-result2 .title{
+  color: white;
+  font-weight: 600;
+  padding: 0 5px;
+  font-size: 12px;
+  text-align: center;
+  padding-top: 23px;
+}
+
+.total-summary-result1 .title,.total-summary-result2 .title{
+  color: white;
+  font-weight: 600;
+  padding: 0 5px;
+  font-size: 12px;
+  text-align: center;
+}
+.summary-result1 .sub_title, .summary-result2 .sub_title{
+  color: white;
+    font-weight: 600;
+    padding: 3px 5px;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 0 0 3px #000000;
+}
+.total-summary-result1 .sub_title, .total-summary-result2 .sub_title{
+  color: white;
+    font-weight: 600;
+    padding: 0 5px;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 0 0 3px #000000;
+}
+.total-financial-summary{
+  margin: 5px 7px 3px 7px;
+  padding-bottom: inherit;
+}
+.export-pdf-img{
+  height: 40px;
+    float: right;
+    margin-top: 12px;
+    cursor: pointer;
+    display: none;
+}
+.asp-link{
+  position: absolute;
+  z-index: 10;
+  /* left: 0; */
+  /* right: 0; */
+  bottom: 5px;
+  top: 5px;
+  text-align: center;
+  background: black;
+  color: white;
+  margin: 28px 24px;
+  line-height: 20px;
+  padding: 8px 0px 0px 5px;
+  vertical-align: middle;
+  font-size: 15px;
+  color: #FF7600;
+  font-weight: bolder;
+  border-radius: 4px;
+}
+.asp-link span{
+  color: #288FDB;
+  border-bottom: 1px solid #288FDB;
+}
+.asp-link label{
+  color: #ffffff;
+}
+.tab_select{
+  background-color: #288FDB;
+}
+.tab_unselect{
+  background-color: #D4D4D4;
+}
+#conversion_asp_model{
+  display: none;
+}
+#cash_pay_model{
+  
+}
+#next_tab{
+  cursor: pointer;
+}
+
+.tab2_consults_heading{
+  border-bottom: 1px solid black;
+}
+.tab2_consults_heading p{
+  float:left;
+  width: 50%;
+  text-align: center;
+}
+.tab2_consults_heading p span{
+  border-right: 1px solid black;
+  display: block;
+}
+.roi-calculator .tab2_consults_heading p {
+  color: black;
+  padding: 0px;
+  font-size: 13px;
+  font-weight: bolder;
+}
+.right_align_tab2 p.title_right{
+  float:left;
+  width: 50%;
+}
+.roi-calculator .title .right_align_end_tab2 p{
+  font-weight: normal;
+  text-align: right;
+  padding-right: 25px;
+}
+.right_align_end_tab2 .roi_hint{
+  color: black;
+  padding-right: 12px;
+}
+#conversion_asp_model .new-patient-body{
+  padding: 21px 0;
+}
