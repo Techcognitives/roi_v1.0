@@ -20,6 +20,7 @@
 @media (min-width: 768px) and (max-width: 1280px) {
   
   .roi-container{
+    width: 1200px;
     padding: 0 10px;
   }
   
